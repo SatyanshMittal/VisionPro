@@ -15,17 +15,18 @@ function App() {
 
   return (
     <main>
-      <img src="/logo2.svg" alt="DFINITY logo" />
-      <br />
-      <br />
-      <form action="#" onSubmit={handleSubmit}>
-        <label htmlFor="name">Enterd your name: &nbsp;</label>
-        <input id="name" alt="Name" type="text" />
-        <button type="submit">ClickMe!</button>
-      </form>
-      <section id="greeting">{greeting}</section>
+        {/* <img src="/logo2.svg" alt="DFINITY logo" />
+        <br />
+        <br />
+        <form action="#" onSubmit={handleSubmit}>
+          <label htmlFor="name">Enterd your name: &nbsp;</label>
+          <input id="name" alt="Name" type="text" />
+          <button type="submit">ClickMe!</button>
+        </form>
+        <section id="greeting">{greeting}</section> */}
+        <div className='font-bold text-5xl'>somethign is wrong</div>
     </main>
   );
 }
 
-export default App;
+export default App; 

@@ -14,7 +14,7 @@ function App() {
   }
 
   return (
-    <main>
+    <main c>
         {/* <img src="/logo2.svg" alt="DFINITY logo" />
         <br />
         <br />
@@ -24,7 +24,10 @@ function App() {
           <button type="submit">ClickMe!</button>
         </form>
         <section id="greeting">{greeting}</section> */}
-        <div className='font-bold text-5xl'>somethign is wrong</div>
+        
+          <h1>ARCher's Assemble</h1>
+          <img src="https://m.media-amazon.com/images/M/MV5BMjBlMTRjODMtMDMyYi00OGQ1LWJhNzYtYTYyMTcxOWI5MGM0XkEyXkFqcGdeQW1yb2Njbw@@._V1_QL75_UX500_CR0,0,500,281_.jpg" alt="" />
+        
     </main>
   );
 }

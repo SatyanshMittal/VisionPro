@@ -21,7 +21,7 @@ function App() {
       <form action="#" onSubmit={handleSubmit}>
         <label htmlFor="name">Enterd your name: &nbsp;</label>
         <input id="name" alt="Name" type="text" />
-        <button type="submit">Click Me soemthing!</button>
+        <button type="submit">ClickMe!</button>
       </form>
       <section id="greeting">{greeting}</section>
     </main>

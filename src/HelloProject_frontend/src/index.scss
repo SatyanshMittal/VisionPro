@@ -252,6 +252,7 @@ svg {
   justify-content: center;
   color: white;
   transition: 0.2s ease-in-out;
+  box-shadow: 0 0 40px 5px #9898a8;
 }
 
 .img {
@@ -260,7 +261,8 @@ svg {
   transition: 0.2s ease-in-out;
   z-index: 1;
   border-radius: 20px;
-  width: 10%;
+  width: 20%;
+  
 }
 
 .textBox {
@@ -300,7 +302,7 @@ svg {
 }
 
 .card:hover > .img {
-  height: 75%;
+  height: 65%;
   filter: blur(7px);
   animation: anim 3s infinite;
   width: 80%;

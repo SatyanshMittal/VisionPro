@@ -75,7 +75,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Iron Man</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -84,7 +84,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Hulk</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -93,7 +93,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Thor</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
               <div class="card">
@@ -101,7 +101,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Deadpool</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Hawk Eye</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -123,7 +123,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Ant-man</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -132,7 +132,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Black Widow</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -141,7 +141,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Vision</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -160,7 +160,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Iron Man</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -169,7 +169,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Hulk</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
 
@@ -178,7 +178,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Thor</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
               <div class="card">
@@ -186,7 +186,7 @@ function App() {
                 <div class="textBox">
                   <p class="text head">ICP</p>
                   <span>Deadpool</span>
-                  <p class="text price">1.654,34€</p>
+                  <p class="text price">1.654,34ETH</p>
                 </div>
               </div>
             </div>

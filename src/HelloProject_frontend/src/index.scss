@@ -1,340 +1,113 @@
 
 
- main {
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    align-items: center;
-    flex-direction: column;
-    position: relative;
 
-    padding: 0;
-    margin: 0;
-    
-    
+@font-face {
+  font-family: "Rajdhani";
+  src: url(../public/fonts/Rajdhani-Medium.ttf) ;
 }
 
-h1 {
-    color: white;
-    font-size: 70px;
-    
+@font-face {
+  font-family: "Blanks";
+  src: url(../public/fonts/Blanka-Regular.otf) ;
 }
 
-#myVideo{
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  z-index: -1;      
+@font-face {
+  font-family: "sand";
+  src: url(../public/fonts/Quicksand-VariableFont_wght.ttf) ;
 }
-  
 
-#Assemble {
-  margin-left: auto;
-  margin-right: 3%;   
-  margin-top: 580px;
-  margin-bottom: 70px;
+p{
+  margin: 0;
 }
 
 
 
-.container {
-  width: 400px;
-  height: 400px;
-  
+
+.navcontain {
+  height: 5vh;
+  width: 100%;
+  background-color: rgb(244, 242, 239);
+  color: rgb(56, 54, 54);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
-
-.btn {
-  width: 690px;
-  height: 65px;
-  cursor: pointer;
-  background: transparent;
-  border: 1px solid #ffffff;
-  outline: none;
-  transition: 1s ease-in-out;
-  color: white;
-  font-size: 18px;
-  font-weight: 600;
-}
-
-
-svg {
-  position: absolute;
-  left: 0;
-  top: 0;
-  fill: none;
-  stroke: #fff;
-  stroke-dasharray: 150 480;
-  stroke-dashoffset: 150;
-  transition: 0.2s ease-in-out;
-}
-
-.btn:hover {
-  transition: 1s ease-in-out;
-  background: #6865659b;
-  border: 1px solid #bcb0b0;
-  font-weight: 600;
-  color:#ece3e3
+.logo {
+ font-family: Blanks;
+ letter-spacing: 4px;
   
 }
 
-.btn:hover svg {
-  stroke-dashoffset: -480;
-}
 
-.buttonContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 14px
-}
-
-.game {
-  color: white;
-}
-
-
-.marketplace {
-  width: 100vw;
-  height: auto;
-
-  position: absolute;
- 
-  z-index: 1;
-  background-color: #212121;
-  display: flex; 
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-}
-
-
-
-
-.premiumNft {
-  color: white;
-  font-size: 40px;
-  margin-right: auto;
-  margin-left: 50px;
-  margin-top: 40px;
-
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.premiumNft div {
-  height: 100%;
-  width: 100%;
-  margin:0;
-}
-
-
-
-
-.obj {
+.main {
+  height: 95vh;
+  
+  background-color: rgb(244, 242, 239);
+  color: rgb(30, 23, 23);
   position: relative;
-  width: 30%;
-  height: 70%;
-    /* background-color: rgb(96, 96, 232); */
-  transform-style: preserve-3d;
-  transition: 0.8s all;
-  transform: rotateX(-25deg) rotateY(20deg);
+  overflow: hidden;
 }
 
-.objchild {
-  animation: rotate 4s infinite linear;
-  transform-style: preserve-3d;
+.headline {
+  font-size: 200px;
+  font-family: Rajdhani;
+  font-weight: bolder;
+  padding-top: 30px;
+  margin: 0;
+
+  margin-left: 59px;
+}
+.vision {
   position: absolute;
-  width: 100%;
-  height: 100%;
-    /* background:linear-gradient( to top,rgb(11, 11, 102),rgb(96, 96, 232) ) ; */
-}
-
-.objchild::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-    /* background: rgb(37, 101, 230); */
-    /* background: radial-gradient(center center, farthest-side , #9993, transparent); */
-  filter: blur(20px);
-  box-shadow: 0 0 200px 15px white;
-  transform: rotateX(90deg) scale(1.1) translateZ(-120px);
-}
-
-.inn6 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgb(21, 21, 21);
-  transform: rotateX(90deg) translateZ(100px);
-  animation: updown 4s infinite ease-in-out;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  
-  object-fit: cover;
-
-}
-
-.ironman {
-  width: 100%;
-  height: 70%;
-  margin:0;
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate3d(0,1,0,0deg);
-  }
-
-  100% {
-    transform: rotate3d(0,1,0,360deg);
-  }
-}
-
-@keyframes updown {
-  0% {
-    transform: translateY(100px) rotateX(90deg) translateZ(100px);
-  }
-
-  50% {
-    transform: translateY(200px);
-  }
-
-  100% {
-    transform: translateY(100px) rotateX(450deg) translateZ(100px);
-  }
-}
-
-.nftDay{
-  height: 100vh;
-  width: 100vw;
- 
- 
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  
-}
-
-.mainCards {
-  height: 100%;
-  width: 100%;
-  background-color: #212121;
-  color: white;
- 
-}
-
-.mainCards h2{
-  margin-right: auto;
-}
-
-.card {
-  width: 350px;
-  height: 385px;
-  background: #313131;
-  border-radius: 20px;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  transition: 0.2s ease-in-out;
-  box-shadow: 0 0 40px 5px #9898a8;
-}
-
-.img {
-  height: 15%;
-  position: absolute;
-  transition: 0.2s ease-in-out;
-  z-index: 1;
-  border-radius: 20px;
-  width: 20%;
-  
-}
-
-.textBox {
-  opacity: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  transition: 0.2s ease-in-out;
   z-index: 2;
+  top: 180px;
 }
 
-.textBox > .text {
-  font-weight: bold;
+.mainImg {
+  position: absolute;
+  z-index: 2;
+  bottom: -89px;
+  width: 600px;
+  right: 0;
 }
 
-.textBox > .head {
-  font-size: 30px;
-  text-shadow: #313131;
-  font-weight: 800;
-}
-
-.textBox > .price {
-  font-size: 27px;
-}
-
-.textBox > span {
-  font-size: 27px;
-  color: rgb(255, 255, 255);
-  font-weight: 600;
- 
-}
-
-.card:hover > .textBox {
-  opacity: 1;
-}
-
-.card:hover > .img {
-  height: 65%;
-  filter: blur(7px);
-  animation: anim 3s infinite;
-  width: 80%;
-}
-
-@keyframes anim {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-.card:hover {
-  transform: scale(1.04) rotate(-1deg);
+.vision-text {
+  padding-top: 175px;
+  padding-left: 64px;
+  font-size: 23px;
+  font-family: sand;
 }
 
 
-.mainCardsBox {
+.btn-try{
+  height: 40px;
+  background: transparent;
+  border: solid black 1px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  width: 300px;
+  font-family: sand;
+  font-weight: bold;
+  margin-left: 63px;
+  margin-top: 40px;
 }
 
+.btn-try:hover {
+  background-color: black;
+  color: white;
+  transition: 0.7s;
+}
 
-.Trendingtxt {
-  margin-left: 55px;
-  margin-top: 70px;
+.btncontainer {
+  display: flex;
+  align-items: center
+}
+
+.learnmore {
+  padding-top: 40px;
+  color: rgb(11, 11, 141);
+  padding-left: 20px;
+  font-size: 20px;
 }

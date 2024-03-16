@@ -1,0 +1,24 @@
+.aboutUs-page {
+    height: 100vh;
+    width: full;
+    background: rgb(240, 236, 236);
+    overflow: hidden;
+    position: relative;
+}
+
+.aboutImg {
+width: 800px;
+position: absolute;
+left: -90px;
+}
+
+.about-txt {
+    font-family: sand;
+    font-size: 120px;
+    font-weight: 800;
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left:840px;
+    letter-spacing: 5px;
+}
